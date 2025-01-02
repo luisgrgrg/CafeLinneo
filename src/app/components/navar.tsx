@@ -20,7 +20,7 @@ export default function Navar() {
                             <li className="m-0 p-0">
                                 <a
                                     href="#"
-                                    className="block w-[100px] h-[80px] text-white font-serif bg-gradient-to-b from-[#a67c52] to-[#8d6240] rounded-b-[2rem] flex items-center justify-center shadow-md" aria-current="page">
+                                    className="block bg-opacity-5 w-[90px] h-[80px] text-white bg-gradient-to-b from-[#d9d9d9]/30 to-[#dbdbdb]/30 rounded-b-[2rem] flex items-center justify-center shadow-lg" aria-current="page">
                                     Home
                                 </a>
                             </li>
