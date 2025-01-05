@@ -15,33 +15,33 @@ export default function Navar() {
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
-                    <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                    <div className="hidden w-full md:block md:w-auto sm:w-auto" id="navbar-dropdown">
                         <ul className="flex flex-col font-medium p-4 md:p-0 mt-0 border border-gray-100 rounded-lg bg-transparent-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-transparent-800 md:dark:bg-transparent-900 dark:border-gray-700">
                             <li className="m-0 p-0">
                                 <a
                                     href="#"
-                                    className="block bg-opacity-5 w-[90px] h-[80px] text-white bg-gradient-to-b from-[#d9d9d9]/30 to-[#dbdbdb]/30 rounded-b-[2rem] flex items-center justify-center shadow-lg" aria-current="page">
+                                    className="transition ease-in-out delay-200  hover:-translate-y-1 hover:scale-105 duration-200 block bg-opacity-5 w-[90px] h-[80px] text-white bg-gradient-to-b from-[#d9d9d9]/30 to-[#dbdbdb]/30 rounded-b-[2rem] flex items-center justify-center shadow-lg hover:text-amber-950" aria-current="page">
                                     Home
                                 </a>
                             </li>
                             <li>
                                 <a href="#productos"
-                                    className="block py-2 px-3 mt-7 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                    className="transition ease-in-out delay-200  hover:-translate-y-0.5 hover:scale-103 duration-200 block py-2 px-3 mt-7 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-950 md:p-0 dark:text-white md:dark:hover:text-amber-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                                     Productos</a>
                             </li>
                             <li>
                                 <a href="#nosotros"
-                                    className="block py-2 px-3 mt-7 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                    className="transition ease-in-out delay-200  hover:-translate-y-0.5 hover:scale-103 duration-200 block py-2 px-3 mt-7 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-950 md:p-0 dark:text-white md:dark:hover:text-amber-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                                     Nosotros</a>
                             </li>
                             <li>
                                 <a href="#historia"
-                                    className="block py-2 px-3 mt-7 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                    className="transition ease-in-out delay-200  hover:-translate-y-0.5 hover:scale-103 duration-200 block py-2 px-3 mt-7 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-950 md:p-0 dark:text-white md:dark:hover:text-amber-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                                     Historia</a>
                             </li>
                             <li>
                                 <a href="#ubicaccion"
-                                    className="block py-2 px-3 mt-7 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                    className="transition ease-in-out delay-200  hover:-translate-y-0.5 hover:scale-103 duration-200 block py-2 px-3 mt-7 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-amber-950 md:p-0 dark:text-white md:dark:hover:text-amber-950 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
                                     Ubicación</a>
                             </li>
                         </ul>
