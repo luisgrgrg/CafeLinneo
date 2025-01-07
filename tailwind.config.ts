@@ -19,6 +19,17 @@ export default {
       '2xl': '1536px',
     },
     extend: {
+      zIndex: { '9999': '9999'}, 
+      rotate: {
+        '320': '320deg',
+        '300': '300deg',
+        '30': '30deg'
+      },
+      spacing: {
+        '770': '770px',
+        '550': '550px',
+        '790': '790px',
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
