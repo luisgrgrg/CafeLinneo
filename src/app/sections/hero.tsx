@@ -10,8 +10,8 @@ export default function Hero() {
         const img1 = new Image();
         const img2 = new Image();
         
-        img1.src = "./images/section-home-img-product.png";
-        img2.src = "./images/section-home-img-h1-name-product.png";
+        img1.src = "./images/section-home-img-product.webp";
+        img2.src = "./images/section-home-img-h1-name-product.webp";
         
         let loadedImages = 0;
         
@@ -45,7 +45,7 @@ export default function Hero() {
                                 <AnimationTextDown duration={0.5}>
                                     <img
                                         className="items-center w-4/6"
-                                        src="./images/section-home-img-h1-name-product.png"
+                                        src="./images/section-home-img-h1-name-product.webp"
                                     />
                                 </AnimationTextDown>
                                 <AnimationTextDown duration={0.8}>
@@ -79,7 +79,7 @@ export default function Hero() {
                     <div className={`transition-opacity duration-500 ${imagesLoaded ? 'opacity-100' : 'opacity-0'}`}>
                         <img
                             className="w-auto lg:h-4/6 lg:ml-48 md:ml-80 md:h-2/6 sm:h-8 drop-shadow-4xl"
-                            src="./images/section-home-img-product.png"
+                            src="./images/section-home-img-product.webp"
                             alt="office content 2"
                         />
                     </div>
