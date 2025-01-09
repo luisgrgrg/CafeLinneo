@@ -48,22 +48,22 @@ export default function Hero() {
                                         src="./images/section-home-img-h1-name-product.webp"
                                     />
                                 </AnimationTextDown>
-                                <AnimationTextDown duration={0.8}>
+                                <AnimationTextDown duration={1}>
                                     <p className="mb-4 text-2xl">
                                         El <strong className="text-white">MEJOR</strong> momento del día comienza con un <strong className="text-white">BUEN CAFÉ</strong>
                                     </p>
                                 </AnimationTextDown>
-                                <AnimationTextDown duration={0.85}>
+                                <AnimationTextDown duration={1.1}>
                                     <p className="mb-4 text-xl mt-10">
                                         Descubre el <strong className="text-white">Auténtico</strong> sabor del <strong className="text-white">Café Arábico del Valle del Cauca.</strong>
                                     </p>
                                 </AnimationTextDown>
-                                <AnimationTextDown duration={0.9}>
+                                <AnimationTextDown duration={1.2}>
                                     <p className="mb-4 text-2xl mt-10">
                                         <strong className="text-white">¡Encuentra tu café ahora!</strong>
                                     </p>
                                 </AnimationTextDown>
-                                <AnimatedUp duration={0.95}>
+                                <AnimatedUp duration={1.3}>
                                     <div className="flex flex-row justify-center items-center gap-10">
                                         <button className="bg-[#2B1D1D] text-white px-8 py-2 rounded-full border-2 border-[#C4A484] hover:opacity-90">
                                             COMPRAR AHORA
