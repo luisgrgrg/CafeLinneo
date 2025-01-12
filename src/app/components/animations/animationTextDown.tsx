@@ -6,7 +6,7 @@ interface AnimationTextDownProps { children: ReactNode; duration: number; }
 export const AnimationTextDown = ({ children, duration }: AnimationTextDownProps) => {
     return (
         <motion.h2
-            className="flex justify-center items-center mb-4 text-4xl"
+            className="flex justify-center items-center mb-4"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration }}
