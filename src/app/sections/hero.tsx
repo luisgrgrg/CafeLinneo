@@ -37,9 +37,9 @@ export default function Hero() {
                                 <button className="bg-[#2B1D1D] text-white px-8 py-2 rounded-full border-2 border-[#C4A484] hover:opacity-90">
                                     Nuestro Catálogo
                                 </button>
-                            </div>
+                            </div> 
                         </AnimatedUp>
-                    </div>
+                    </div> 
                     <AnimatedUp duration={0.8}>
                         <Image priority={true} className="w-auto lg:h-4/6 lg:ml-48 md:ml-80 md:h-2/6 sm:h-8 drop-shadow-4xl" src="/images/section-home-img-product.webp" alt="office content 2" width={600} height={400} />
                     </AnimatedUp >

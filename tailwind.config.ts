@@ -12,7 +12,7 @@ export default {
 
       'md': '768px',
 
-      'lg': '1024px',
+      'lg': '1024px', 
 
       'xl': '1280px',
 
@@ -25,7 +25,7 @@ export default {
         '300': '300deg',
         '340': '340deg',
         '330': '330deg',
-        '30': '30deg',
+        '30': '30deg', 
         '5': '5deg'
       },
       spacing: {
