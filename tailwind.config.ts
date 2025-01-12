@@ -23,7 +23,10 @@ export default {
       rotate: {
         '320': '320deg',
         '300': '300deg',
-        '30': '30deg'
+        '340': '340deg',
+        '330': '330deg',
+        '30': '30deg',
+        '5': '5deg'
       },
       spacing: {
         '770': '770px',
