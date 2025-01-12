@@ -10,7 +10,10 @@ export default function Hero() {
                 <div className="mt-7 2xl:mt-28 xl:mt-1 sm:mt-5 lg:mt-1 md:mt-5 gap-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2">
                     <div className="xl:mt-10 sm:mt-5 lg:mt-20 md:mt-5 font-light text-gray-500 sm:text-lg dark:text-gray-400 items-center text-center">
                         <AnimationTextDown duration={0.5}>
-                            <Image priority={true} className="items-center w-4/6" src="/images/section-home-img-h1-name-product.webp" alt="Product Image"  width={600} height={400} />
+                            <div className="relative w-5/6 h-28">
+                                <Image priority={true} className="items-center w-4/6" src="/images/section-home-img-h1-name-product.webp"
+                                    alt="Product Image" layout="fill" objectFit="cover" />
+                            </div>
                         </AnimationTextDown>
                         <AnimationTextDown duration={0.8}>
                             <p className="mb-4 text-2xl">
@@ -40,7 +43,7 @@ export default function Hero() {
                         </AnimatedUp>
                     </div>
                     <AnimatedUp duration={0.8}>
-                        <Image priority={true} className="w-auto lg:h-4/6 lg:ml-48 md:ml-80 md:h-2/6 sm:h-8 drop-shadow-4xl" src="/images/section-home-img-product.webp" alt="office content 2" width={600} height={400}/>
+                        <Image priority={true} className="w-auto lg:h-4/6 lg:ml-48 md:ml-80 md:h-2/6 sm:h-8 drop-shadow-4xl" src="/images/section-home-img-product.webp" alt="office content 2" width={600} height={400} />
                     </AnimatedUp >
                 </div>
 
