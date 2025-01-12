@@ -9,21 +9,21 @@ export default function Hero() {
             <section>
                 <div className="mt-7 2xl:mt-28 xl:mt-1 sm:mt-5 lg:mt-1 md:mt-5 gap-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2">
                     <div className="xl:mt-10 sm:mt-5 lg:mt-20 md:mt-5 font-light text-gray-500 sm:text-lg dark:text-gray-400 items-center text-center">
-                        <AnimationTextDown duration={0.5} delay={0.4}>
+                        <AnimationTextDown duration={0.5} delay={0.3}>
                             <Image priority={true} className="items-center w-1/6" src="/images/section-home-img-h1-name-product.webp" alt="Product Image"
                                 sizes="100vw" style={{ width: '100%', height: 'auto' }} width={400} height={200} />
                         </AnimationTextDown>
-                        <AnimationTextDown duration={0.8} delay={0}>
+                        <AnimationTextDown duration={0.8} delay={0.1}>
                             <p className="mb-4 text-2xl">
                                 El <strong className=" text-white">MEJOR</strong> momento del día comienza con un <strong className=" text-white">BUEN CAFÉ</strong>
                             </p>
                         </AnimationTextDown>
-                        <AnimationTextDown duration={0.85} delay={0}>
+                        <AnimationTextDown duration={0.85} delay={0.1}>
                             <p className="mb-4 text-xl mt-10">
                                 Descubre el <strong className=" text-white">Auténtico</strong> sabor del <strong className=" text-white">Café Arábico del Valle del Cauca.</strong>
                             </p>
                         </AnimationTextDown>
-                        <AnimationTextDown duration={0.9} delay={0}>
+                        <AnimationTextDown duration={0.9} delay={0.1}>
                             <p className="mb-4 text-2xl mt-10">
                                 <strong className=" text-white">¡Encuentra tu café ahora!</strong>
                             </p>
