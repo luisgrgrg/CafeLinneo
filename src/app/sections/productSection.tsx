@@ -18,7 +18,7 @@ export default function Products() {
                     <AnimatedUpScroll duration={0.7}>
                         <span className={`${satisfy.className} antialiased text-white text-3xl`}>NUESTROS PRODUCTOS</span>
                     </AnimatedUpScroll>
-                    <AnimatedUpScroll duration={0.7}>
+                    <AnimatedUpScroll duration={0.8}>
                         <CardSlider />
                     </AnimatedUpScroll>
                 </div>
