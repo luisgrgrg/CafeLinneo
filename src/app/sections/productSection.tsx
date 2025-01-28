@@ -1,8 +1,6 @@
 "use client"
-import { AnimatedUp } from "../components/animations/animatedUp"
 import { AnimatedUpScroll } from "../components/animations/animatedUpScroll"
 import { CardSlider } from "../components/cardSlider";
-import { AnimationTextDown } from "../components/animations/animationTextDown"
 import { Playwrite_TZ } from "next/font/google";
 
 const satisfy = Playwrite_TZ({
