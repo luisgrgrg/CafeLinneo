@@ -14,9 +14,9 @@ export default function Products() {
     return (
         <div>
             <section>
-                <div className="2xl:mt-44 xl:mt-20 sm:mt-4 lg:mt-1 md:mt-5 gap-16 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-1">
+                <div className="2xl:mt-44 xl:mt-20 sm:mt-4 lg:mt-1 md:mt-5 gap-6 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-1">
                     <AnimatedUpScroll duration={0.7}>
-                        <span className={`${satisfy.className} antialiased text-white text-3xl`}>NUESTROS PRODUCTOS</span>
+                        <span className={`${satisfy.className} antialiased text-white text-5xl`}>Nuestos Productos</span>
                     </AnimatedUpScroll>
                     <AnimatedUpScroll duration={0.8}>
                         <CardSlider />
