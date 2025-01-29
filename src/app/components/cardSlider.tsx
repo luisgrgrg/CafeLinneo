@@ -9,10 +9,10 @@ export const CardSlider = () => {
                 <section id="Projects"
                     className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
                     {productsCoffe.map((products, index) => (
-                        <div key={index} className={`${index%2 ? `w-80` : `w-72`} bg-orange-100 shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl`} >
+                        <div key={index} className={`${index%2 ? `w-80` : `w-72`} bg-orange-100 shadow-md rounded-3xl duration-500 hover:scale-105 hover:shadow-xl`} >
                             <a href="#" >
                                 <img src={`${products.img}`}
-                                    alt="Product" className={`${index%2 ? `h-80 w-80` : `h-80 w-64`} object-cover rounded-t-xl`} />
+                                    alt="Product" className={`${index%2 ? `h-96 w-80` : `h-96 w-72`} object-cover rounded-t-3xl`} />
                                 <div className="px-4 py-3 w-72">
                                     <span className="text-gray-400 mr-3 uppercase text-xs">Café Linneo</span>
                                     <p className="text-lg font-bold text-black truncate block capitalize">{products.title}</p>
