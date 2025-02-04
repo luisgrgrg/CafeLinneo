@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Philosopher } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const philosopher = Philosopher({
+const montserrat = Montserrat({
   subsets: ['latin'],
   weight: ['400', '400'],
   variable: '--font-poppins',
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${philosopher.className} antialiased`}
+        className={`${montserrat.className} antialiased`}
       >
         {children}
       </body>

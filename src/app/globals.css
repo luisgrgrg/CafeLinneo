@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: linear-gradient(to right, #221518 58%, #a5846d 45%);
+:root 
+  {
+    background-image: url('../../public/images/background-web.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
 }
 
 
