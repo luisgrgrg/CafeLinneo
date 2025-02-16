@@ -7,7 +7,7 @@ export const CardSlider = () => {
         <div>
             <motion.div className="carousel">
                 <section id="Projects"
-                    className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
+                    className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 justify-items-center justify-center gap-y-20 gap-x-14 mt-10 mb-5">
                     {productsCoffe.map((products, index) => (
                         <div key={index} className={`${index%2 ? `w-80` : `w-72`} bg-orange-100 shadow-md rounded-3xl duration-500 hover:scale-105 hover:shadow-xl`} >
                             <a href="#" >
